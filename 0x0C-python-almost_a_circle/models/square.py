@@ -42,7 +42,7 @@ class Square(Rectangle):
             for i, arg in enumerate(args):
                 if i == 0:
                     self.id = arg
-[O                elif i == 1:
+	            elif i == 1:
                     self.size = arg
                 elif i == 2:
                     self.x = arg
